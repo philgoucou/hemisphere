@@ -3,10 +3,12 @@
 R and Python code for *A Neural Phillips Curve and a Deep Output Gap*
 (Goulet Coulombe, *Journal of Business & Economic Statistics*, 2025).
 
-- `R_v20261102.zip`: R version (`HNN_function.R`, `HNN_example.R`, data).
+- `R_v20261104.zip`: R version (`HNN_function.R`, `HNN_example.R`, data).
 - `Python_v20261102.zip`: Python version (`functions/`, `HNN_example.ipynb`, data).
 
 **November 2026 update.** This is an upgraded version of the code with bug fixes
 to the network training. The example scripts now use a learning rate of 0.001;
 other settings are unchanged. Results with this version differ slightly from
-those obtained with earlier releases.
+those obtained with earlier releases. The R version was updated again on
+4 November 2026 (v20261104): the torch random seed is now set, and early stopping
+returns the best-epoch weights, as the Python version already did.
